@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+
+  <h1 class="titulo">
+    Sistema de Qualidade 4.0
+  </h1>
+
+  <div class="formulario">
+
+    <form>
+
+      <h2 class="subtitulo">Cadastro de Defeitos</h2>
+      <select name="carros" class="campo_menor" id="modelo">
+        <option value="model" disabled selected>Escolha um modelo</option>
+        <option value="Onix">Onix</option>
+        <option value="Nivus">Nivus</option>
+        <option value="Tracker">Tracker</option>
+        <option value="Pulse">Pulse</option>
+        <option value="Outro">Outro</option>
+      </select>
+
+      <input class="campo_menor" id="chassis" type="text" placeholder="Chassis" required>
+      <input class="campo_menor" id="imagem" type="text" placeholder="URL da imagem">
+      <textarea name="" class="descricao" cols="30" rows="10" placeholder="Descrição do defeito" required></textarea>
+
+      <div class="btn">
+        <button class="limpar" type="reset"> Limpar
+        </button>
+        <button class="enviar" type="submit"> Enviar
+        </button>
+      </div>
+
+    </form>
+
+  </div>
+
+<div class="cartoes">
+<!--iremos criar a Cartaõ com java-->
+
+<!--iremos criar a Cartaõ com java-->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
